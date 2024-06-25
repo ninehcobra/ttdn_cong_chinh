@@ -1,0 +1,42 @@
+@import "@/sass/common/_common.scss";
+
+.content-box {
+  padding: 0 16px;
+  width: 100%;
+
+  table{
+    border: $gray-border 1px solid !important;
+
+    td, th {
+      border-inline-end-color: $gray-border !important
+    }
+    
+    .ant-descriptions-item-label{
+      font-weight: 600;
+      background-color: $gray-row-hover !important;
+    }
+  }
+
+  .--carousel-custom{
+    > button{
+      color: $main-color !important;
+      width: 30px !important;
+      height: 30px !important;
+      &::before{
+        color: $main-color !important;
+        font-size: 30px !important;
+      }
+    }
+
+    .ant-image{
+      align-self: center !important;
+      img{
+        object-fit: cover !important;
+        border-radius: 12px !important;
+      }
+      .ant-image-mask{
+        border-radius: 12px !important;
+      }
+    }
+  }
+}

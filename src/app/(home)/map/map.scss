@@ -1,0 +1,52 @@
+@import '@/sass/common/common.scss';
+
+.leaflet-container {
+  height: 100%;
+}
+
+main {
+  margin: 0 !important;
+}
+
+.demo-logo {
+  margin-right: 24px !important;
+}
+
+.search-wrapper {
+  width: 65%;
+  max-width: 650px;
+}
+
+.ant-input-search-button {
+  height: 44px !important;
+}
+
+.search-header {
+  z-index: 1;
+  background-color: $light !important;
+  position: sticky;
+}
+
+.header-sider-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.search-sider {
+  /* Styles for SearchSider */
+  height: calc(100% - 66px);
+  position: relative;
+}
+
+.ant-layout-content {
+  overflow: hidden;
+}
+
+.btn-dropdown {
+  height: 44px !important;
+}
+
+.ant-image-img {
+  object-fit: cover;
+}

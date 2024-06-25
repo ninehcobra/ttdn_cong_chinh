@@ -1,0 +1,61 @@
+@import '@/sass/common/common.scss';
+.business-detail-wrapper {
+  font-size: 13px;
+  color: $gray;
+  border-bottom: 1px solid $gray-border;
+
+  &:hover {
+    background-color: $gray-hover;
+  }
+}
+
+.selected {
+  background-color: $gray-hover !important;
+}
+
+.distance {
+  color: $gray;
+  font-size: 13px;
+  font-style: italic;
+}
+
+.business-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: $dark;
+}
+
+.business-rating {
+  .rating-count {
+    margin-right: 4px;
+  }
+
+  .rating-star {
+    margin-right: 4px;
+    i {
+      color: $gray-bg;
+    }
+    .star-fill {
+      color: $star-color;
+    }
+  }
+}
+
+.business-image {
+  border-radius: 8px;
+}
+
+.active-status {
+  color: $open-color;
+  font-weight: 500;
+}
+
+.close-status {
+  color: $close-color;
+  font-weight: 500;
+}
+
+.close-soon-status {
+  color: $close-soon-color;
+  font-weight: 500;
+}

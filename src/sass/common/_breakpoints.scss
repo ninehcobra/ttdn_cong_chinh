@@ -1,0 +1,55 @@
+@mixin smobile {
+  @media screen and (min-width: 0px) {
+    @content;
+  }
+}
+
+// < 576px
+// iPhone 12 Pro (390x844)
+@mixin xs {
+  @media screen and (min-width: 0px) {
+    @content;
+  }
+}
+
+// >= 576px
+@mixin sm {
+  @media screen and (min-width: 576px) {
+    @content;
+  }
+}
+
+// >= 768px
+// iPad Air (853x1280)
+@mixin md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+// >= 992px
+@mixin lg {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+
+// >= 1200px
+// Nest Hub Max (1280x800)
+@mixin xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin custom-screen-from($px) {
+  @media screen and (min-width: $px) {
+    @content;
+  }
+}
+
+@mixin custom-screen-min-max($min, $max) {
+  @media screen and (min-width: $min) and (max-width: $max) {
+    @content;
+  }
+}

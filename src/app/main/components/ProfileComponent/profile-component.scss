@@ -1,0 +1,42 @@
+@import '@/sass/common/_common.scss';
+
+.--profile-wrapper{
+  overflow-y: auto;
+  max-height: calc(100vh - 170px);
+
+  .ant-input{
+    padding: 8px 12px !important;
+  }
+
+  .profile-cover {
+    position: relative;
+  
+    .avatar-cover {
+      position: relative;
+      .role {
+        position: absolute;
+        left: 70%;
+        top: 10%;
+      }
+
+      .--edit-avatar-icon{
+        position: absolute;
+        bottom: 13%;
+        right: 0;
+      }
+    }
+  
+    .editable-btn {
+      position: absolute;
+      bottom: calc(0.5% - 2.5px);
+      right: 110px;
+      transition-duration: 0.4s;
+    }
+  
+    .loading {
+      right: 130px !important;
+      transition: all .3s ease-in-out;
+    }
+  }
+}
+
