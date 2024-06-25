@@ -27,6 +27,7 @@ export function middleware(req: NextRequest): NextResponse {
   }
 
   if (token) {
+    //hi
     // Admin-specific route access
     if (adminRoutes.includes(pathName)) {
       if (role?.value === RoleEnum._ADMIN) {
