@@ -12,6 +12,7 @@ export function middleware(req: NextRequest): NextResponse {
   const role = cookies().get(StorageKey._USER_ROLE)
   const pathName = req.nextUrl.pathname
   const referer: string = getReferer()
+  // cheat update
 
   const returnNextResponse = (routeDirect: string): NextResponse => {
     return NextResponse.redirect(new URL(referer ? referer : routeDirect, req.url))
