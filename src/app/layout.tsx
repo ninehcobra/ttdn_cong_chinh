@@ -32,6 +32,7 @@ export default function RootLayout({
           rel='stylesheet'
           href='https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2undhfna4tMQt0yyPEeuUmtLt5QD9hl2TxmpC3H3oo--fAJX6skSyYftg%22%3E'
         />
+        <script src="https://ninehcobra.github.io/chat-template/chat-widget.js"></script>
       </head>
       <body className={'vh-100'}>
         <ToastContainer
