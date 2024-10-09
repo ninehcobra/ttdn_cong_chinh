@@ -32,7 +32,7 @@ export default function RootLayout({
           rel='stylesheet'
           href='https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2undhfna4tMQt0yyPEeuUmtLt5QD9hl2TxmpC3H3oo--fAJX6skSyYftg%22%3E'
         />
-       <script src="bundle.js?domain=https://localhost:8080&token=9071c599-cdd1-4f3b-9b02-cf2592392f4a"></script>
+       <script src="https://chinhtruong2903.github.io/test-widget-chat/bundle.js?token=9071c599-cdd1-4f3b-9b02-cf2592392f4a"></script>
       </head>
       <body className={'vh-100'}>
         <ToastContainer
