@@ -32,7 +32,10 @@ export default function RootLayout({
           rel='stylesheet'
           href='https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2undhfna4tMQt0yyPEeuUmtLt5QD9hl2TxmpC3H3oo--fAJX6skSyYftg%22%3E'
         />
-      <script src="https://chatbot-dev.qkit.vn/assets/bundle.js?token=1e06d724-02da-4a75-880f-1341e145c047"></script>
+      <script
+      src="./bundle.js?token=174fcb82-7ee9-4ae8-a4e2-be625b1dc7ad"
+      async
+    ></script>
       </head>
       <body className={'vh-100'}>
         <ToastContainer
