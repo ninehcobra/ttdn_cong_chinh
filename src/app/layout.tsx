@@ -32,12 +32,16 @@ export default function RootLayout({
           rel='stylesheet'
           href='https://site-assets.fontawesome.com/releases/v6.1.2/css/all.css?fbclid=IwAR2undhfna4tMQt0yyPEeuUmtLt5QD9hl2TxmpC3H3oo--fAJX6skSyYftg%22%3E'
         />
-    <script src="https://unpkg.com/qkai-chatbot@latest/dist/qkai-chatbot.js"></script>
-<script>
-  QKAIChatbot.initialize({
-    token: "174fcb82-7ee9-4ae8-a4e2-be625b1dc7ad",
-  });
-</script>
+     <script src='https://unpkg.com/qkai-chatbot@latest/dist/qkai-chatbot.js'></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+            QKAIChatbot.initialize({
+              token: "174fcb82-7ee9-4ae8-a4e2-be625b1dc7ad",
+            })
+          `
+          }}
+        />
       </head>
       <body className={'vh-100'}>
         <ToastContainer
